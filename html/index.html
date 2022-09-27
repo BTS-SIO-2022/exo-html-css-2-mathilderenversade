@@ -11,22 +11,22 @@
     exemple : ../../truc/sousdossiertruc/monfichier
     -->
     <!-- <link rel="stylesheet" href="../css/reset.css">-->
-
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
     <!-- Votre HTML viendra par ici ;) -->
     <header>
-        <h1>HTML & CSS</h1>
+        <h1>HTML <span>&</span> CSS</h1>
     </header>
 
     <main>
     <!-- je choisis mes éléments ou balises html en fonction de leur valeur sémantique afin de décrire le plus précisément possible le contenu de ma page. Par exemple la balise <div> n'a aucune valeur sémantique, elle ne permet pas du tout de décrire le contenu de ma page -->
         <section>
             <h2>HTML : Le fond</h2>
-            <p>HTML signifie "HyperText Markup Language" qu'on peut traduire par "langage de balises pour l'hypertexte". Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).</p>
+            <p class="definition"><strong>HTML</strong> signifie <em> "HyperText Markup Language"</em> qu'on peut traduire par "langage de balises pour l'hypertexte". Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).</p>
             <h3>Les textes</h3>
-            <p>Avec les balises h1-h6 il est possible de définir des titres en respectant une logique de profondeur</p>
+            <p>Avec les balises <strong>h1-h6</strong> il est possible de définir des titres en respectant une logique de profondeur</p>
 
             <ul>
                 <li>h1 : 1. : Titre principal
@@ -49,11 +49,11 @@
 
             <p>Pour représenter un paragraphe de texte courant la balise p est parfaite
             </p>
-            <p>strong et em sont des balises permettant de définir des mots ou expressions signifiants dans un texte courant</p>
+            <p><strong>strong</strong> et <strong>em</strong>sont des balises permettant de définir des mots ou expressions signifiants dans un texte courant</p>
         </section>
         <section>
             <h2>CSS : la forme</h2>
-            <p>CSS signifie "Cascading Style Sheets", c'est un langage de feuille de style utilisé pour décrire la présentation d'un document écrit en HTML ou en XML. CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation, ou sur d'autres supports.
+            <p class="definition"><strong>CSS</strong> signifie <em>"Cascading Style Sheets"</em>, c'est un langage de feuille de style utilisé pour décrire la présentation d'un document écrit en HTML ou en XML. CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation, ou sur d'autres supports.
             </p>
             <h3>Anatomie d'une règle CSS
             </h3>
@@ -72,7 +72,7 @@
 
     <footer>
         <p>De plus amples informations sont disponibles sur les fiches récap ou sur le MDN</p>
-        <p>Ressources : <a href="https://htmlreference.io/">htmlreference</a> - <a href="https://cssreference.io">cssreference</a> - <a href="https://developer.mozilla.org/fr/">MDN</a>
+        <p id="ressources">Ressources : <a href="https://htmlreference.io/">htmlreference</a> - <a href="https://cssreference.io">cssreference</a> - <a href="https://developer.mozilla.org/fr/">MDN</a>
         </p>
     </footer>
 </body>

@@ -1,1 +1,92 @@
 /* Ici vos styles CSS*/
+
+/*
+
+Règle CSS :
+
+selecteur { 
+    propriete : valeur;
+}
+
+*/
+
+body {
+    background-color: #DFEFEC;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* 
+Pour définir les valeurs de taille, je peux utiliser différentes unités de mesure. Ces unités sont de deux types : 
+option 1 : unité absolue, exemple : le pixel
+option 2 : unités relative, exemple : le em ou rem
+
+Pour en savoir, lien vers article explicatif : https://graphiste.com/blog/unites-mesure-css
+
+Wikipedia le pixel
+https://en.wikipedia.org/wiki/Pixel#:~:text=A%20typical%20definition%2C%20such%20as,what%20screen%20resolution%20views%20it.
+*/
+
+h1 {
+    font-size: 45px;
+    font-weight: normal;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #0DBB9D;
+}
+
+h3 {
+    font-style: italic;
+}
+
+header, footer {
+    background-color: #0DBB9D;
+    color: white;
+    text-align: center;
+}
+
+
+strong {
+    background-color: yellow;
+}
+
+span {
+    font-size: 80px;
+}
+
+em {
+    text-decoration: overline gray;
+}
+
+.definition {
+    background-color: lightyellow;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+}
+
+section p {
+    text-align: left;
+    line-height: 1.8;
+}
+
+ul {
+    text-align: justify;
+}
+
+#ressources {
+    color: black;
+    font-weight: bold;
+}
+
+#ressources a {
+    color: white;
+    text-decoration: underline white;
+}
